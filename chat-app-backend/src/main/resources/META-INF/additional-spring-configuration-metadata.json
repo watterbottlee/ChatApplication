@@ -1,0 +1,40 @@
+{"properties": [
+  {
+    "name": "spring.web.cors.allowed-origins",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.web.cors.allowed-origins'"
+  },
+  {
+    "name": "spring.web.cors.allow-credentials",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.web.cors.allow-credentials'"
+  }
+]} "description": "A description for 'spring.web.cors.allowed-origins'"
+  },
+  {
+    "name": "spring.web.cors.allowed-headers",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.web.cors.allowed-headers'"
+  }
+]} "description": "A description for 'spring.web.cors.allowed-origins'"
+  },
+  {
+    "name": "spring.web.cors.allowed-methods",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.web.cors.allowed-methods'"
+  }
+]} "description": "A description for 'spring.web.cors.allowed-origins'"
+  },
+  {
+    "name": "spring.web.cors.allowed-methods",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.web.cors.allowed-methods'"
+  }
+]} "description": "A description for 'spring.web.cors.allowed-origins'"
+  },
+  {
+    "name": "spring.web.cors.allowed-methods",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.web.cors.allowed-methods'"
+  }
+]}
