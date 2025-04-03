@@ -24,6 +24,7 @@ public class RoomController {
         this.roomRepository=roomRepository;
     }
     //create room
+    @SuppressWarnings("unused")
     @PostMapping
     public ResponseEntity<?> creteRoom(@RequestBody String roomId){
         if(roomRepository.findByRoomId(roomId) != null){
