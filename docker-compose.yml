@@ -12,7 +12,7 @@ services:
   boot-app:
     image: onekanishk/chatback
     build:
-      context: .
+      context: ./chat-app-backend
       dockerfile: Dockerfile
     ports:
       - "8080:8080"
@@ -20,6 +20,15 @@ services:
       - SPRING_DATA_MONGODB_URI=mongodb://mongo:27017/chatapp
     depends_on:
       - mongo
+    networks:
+      - app-network
+  react-service:
+    image: onekanishk/chatfront
+    build:
+      context: ./chat-app-backend
+      dockerfile: Dockerfile
+    ports:
+      - "5173:80"
     networks:
       - app-network
 

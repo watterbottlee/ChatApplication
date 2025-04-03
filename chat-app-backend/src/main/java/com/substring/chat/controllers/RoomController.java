@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("api/v1/rooms")
 @CrossOrigin(
-		origins="http://localhost:5173",
+		origins="http://ec2-43-205-74-39.ap-south-1.compute.amazonaws.com:5173",
 		allowedHeaders = "*",
 methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE})
 public class RoomController {
